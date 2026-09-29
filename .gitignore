@@ -1,0 +1,22 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+
+# Editor, OS, and local runtime files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.temp
+*~
+*.log
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example

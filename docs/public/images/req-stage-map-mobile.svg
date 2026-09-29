@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="2390" viewBox="0 0 780 2390" role="img" aria-labelledby="title desc">
+  <title id="title">一项 REQ 的工作路径，竖版</title>
+  <desc id="desc">S0 至 S5 是谋划，其中 S5 回看 S3 与 S4，并追溯需求和设计。S6 至 S9 是实现与验证；发现问题时进入 S8、S9，再返回新一轮 S7。S7 通过后进入 S10 和 S11。</desc>
+  <defs>
+    <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r="0.8" fill="#b9b5a9" opacity=".38"/><circle cx="22" cy="23" r=".65" fill="#b9b5a9" opacity=".25"/></pattern>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L9 5.5 L2 9" fill="none" stroke="#38525c" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="orangeArrow" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L9 5.5 L2 9" fill="none" stroke="#cf744d" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <g id="paperIcon" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7 Q10 8 10 13 L10 53 Q10 57 15 57 L48 57 Q53 56 53 52 L53 16 L44 7 Z"/><path d="M44 7 L44 17 L53 17"/><path d="M19 27 Q29 26 42 27 M19 35 Q30 36 42 35 M19 43 Q27 42 34 43"/></g>
+    <g id="taskIcon" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 12 L46 12 L49 19 L14 19 Z M15 25 L50 25 L53 32 L18 32 Z M11 38 L46 38 L49 45 L14 45 Z"/><path d="M21 51 L45 51"/></g>
+    <g id="checkIcon" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 29 L22 39 L47 15 M11 51 Q31 55 52 48"/><circle cx="31" cy="29" r="24"/></g>
+    <g id="sealIcon" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16 Q30 10 47 17 L47 49 Q30 54 14 49 Z M22 32 L29 39 L40 25"/><path d="M20 54 Q32 57 46 54"/></g>
+    <g id="loopIcon" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M47 20 Q30 7 15 24 L14 15 M15 24 L24 22 M16 42 Q33 56 49 39 L50 49 M49 39 L40 42"/></g>
+  </defs>
+  <style>
+    .bg{fill:#fbf7ed} .ink{fill:#2e434b} .muted{fill:#62747a} .orange{fill:#c66c48}
+    .title{font:700 40px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif;letter-spacing:1px}
+    .sub{font:400 19px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .group{font:700 33px 'STKaiti','Kaiti SC','PingFang SC',sans-serif}
+    .stage{font:700 24px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .action{font:700 29px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .output{font:500 25px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .small-output{font:500 19px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .human{font:600 20px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .small{font:500 18px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .small-action{font:700 22px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+    .zone-title{font:700 23px 'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif}
+
+    .title{font-size:48px} .sub{font-size:27px} .group{font-size:36px}
+    .stage{font-size:31px} .action{font-size:34px} .output{font-size:27px}
+    .human{font-size:20px} .small{font-size:27px} .small-action{font-size:30px} .small-output{font-size:27px}
+    .zone-title{font-size:29px}
+
+  </style>
+  <rect class="bg" width="780" height="2390"/>
+  <rect width="780" height="2390" fill="url(#grain)"/>
+
+<text x="47" y="73" class="title ink">一项 REQ 的工作路径</text>
+<text x="49" y="110" class="sub muted">小标签 = 这一阶段留下的产物</text>
+<g transform="translate(0 50)">
+<g>
+  <path d="M38 117 Q22 119 22 133 L22 1027 Q23 1045 41 1045 L740 1045 Q758 1043 758 1025 L758 133 Q756 117 740 117 Z" fill="#e7f2e8" fill-opacity=".35" stroke="#84a99f" stroke-width="3" stroke-dasharray="10 10" stroke-linecap="round"/>
+  <rect x="36" y="118" width="271" height="29" fill="#fbf7ed"/>
+  <text x="41" y="142" class="zone-title ink">谋划：把事情说清</text>
+</g>
+<g>
+  <path d="M38 1057 Q22 1059 22 1073 L22 1825 Q23 1843 41 1843 L740 1843 Q758 1841 758 1823 L758 1073 Q756 1057 740 1057 Z" fill="#f9e9da" fill-opacity=".35" stroke="#cb9b79" stroke-width="3" stroke-dasharray="10 10" stroke-linecap="round"/>
+  <rect x="36" y="1058" width="175" height="29" fill="#fbf7ed"/>
+  <text x="41" y="1082" class="zone-title ink">实施与验证</text>
+</g>
+<g>
+  <path d="M58 156 Q48 158 48 169 L47 551 Q49 566 65 566 L718 567 Q733 564 732 548 L733 171 Q731 155 715 156 Z" fill="#f0f5ed" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="71" y="200" class="group ink">确定承诺</text>
+  <path d="M71 210 Q136 206 215 211" fill="none" stroke="#77a39d" stroke-width="3" stroke-linecap="round"/>
+  <text x="654" y="199" text-anchor="end" class="small muted">S0—S2</text>
+  <use href="#paperIcon" x="669" y="167" width="48" height="48" style="color:#608c88"/>
+</g>
+<g>
+  <path d="M83 238 Q73 240 73 251 L72 303 Q74 318 90 318 L693 319 Q708 316 707 300 L708 253 Q706 237 690 238 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="275" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="282" text-anchor="middle" class="stage ink">S0</text>
+  <text x="148" y="267" class="action ink">确认需求</text>
+  <path d="M607 251 Q609 246 617 246 L696 246 Q701 247 701 254 L699 272 L608 271 Z" fill="#f8e2d7" stroke="#dfb29c" stroke-width="1.4"/>
+  <text x="654" y="264" text-anchor="middle" class="human orange">人确认</text>
+  <path d="M149 283 Q153 279 161 280 L235 280 Q241 281 241 288 L240 305 L150 306 Z" fill="#edf3ef"/>
+  <text x="159" y="299" class="output muted">REQ</text>
+</g>
+<g>
+  <path d="M83 341 Q73 343 73 354 L72 406 Q74 421 90 421 L693 422 Q708 419 707 403 L708 356 Q706 340 690 341 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="378" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="385" text-anchor="middle" class="stage ink">S1</text>
+  <text x="148" y="370" class="action ink">登记授权</text>
+  <path d="M607 354 Q609 349 617 349 L696 349 Q701 350 701 357 L699 375 L608 374 Z" fill="#f8e2d7" stroke="#dfb29c" stroke-width="1.4"/>
+  <text x="654" y="367" text-anchor="middle" class="human orange">人授权</text>
+  <path d="M149 386 Q153 382 161 383 L249 383 Q255 384 255 391 L254 408 L150 409 Z" fill="#edf3ef"/>
+  <text x="159" y="402" class="output muted">绑定记录</text>
+</g>
+<g>
+  <path d="M83 444 Q73 446 73 457 L72 509 Q74 524 90 524 L693 525 Q708 522 707 506 L708 459 Q706 443 690 444 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="481" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="488" text-anchor="middle" class="stage ink">S2</text>
+  <text x="148" y="473" class="action ink">建立设计</text>
+
+  <path d="M149 489 Q153 485 161 486 L306 486 Q312 487 312 494 L311 511 L150 512 Z" fill="#edf3ef"/>
+  <text x="159" y="505" class="output muted">架构 · 场景</text>
+</g>
+<g>
+  <path d="M58 623 Q48 625 48 636 L47 1018 Q49 1033 65 1033 L718 1034 Q733 1031 732 1015 L733 638 Q731 622 715 623 Z" fill="#edf4f0" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="71" y="667" class="group ink">安排工作</text>
+  <path d="M71 677 Q136 673 215 678" fill="none" stroke="#77a39d" stroke-width="3" stroke-linecap="round"/>
+  <text x="654" y="666" text-anchor="end" class="small muted">S3—S5</text>
+  <use href="#taskIcon" x="669" y="634" width="48" height="48" style="color:#608c88"/>
+</g>
+<g>
+  <path d="M72 697 Q62 699 62 710 L61 888 Q63 903 79 903 L704 904 Q719 901 718 885 L719 712 Q717 696 701 697 Z" fill="#dcebe6" stroke="#8aada5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M390 938 Q387 925 390 913" fill="none" stroke="#547d78" stroke-width="4" stroke-linecap="round"/>
+  <path d="M378 925 L390 912 L402 925" fill="none" stroke="#547d78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g>
+  <path d="M83 705 Q73 707 73 718 L72 770 Q74 785 90 785 L693 786 Q708 783 707 767 L708 720 Q706 704 690 705 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="742" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="749" text-anchor="middle" class="stage ink">S3</text>
+  <text x="148" y="734" class="action ink">统一约定</text>
+
+  <path d="M149 750 Q153 746 161 747 L235 747 Q241 748 241 755 L240 772 L150 773 Z" fill="#edf3ef"/>
+  <text x="159" y="766" class="output muted">契约</text>
+</g>
+<g>
+  <path d="M83 808 Q73 810 73 821 L72 873 Q74 888 90 888 L693 889 Q708 886 707 870 L708 823 Q706 807 690 808 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="845" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="852" text-anchor="middle" class="stage ink">S4</text>
+  <text x="148" y="837" class="action ink">安排工作</text>
+
+  <path d="M149 853 Q153 849 161 850 L235 850 Q241 851 241 858 L240 875 L150 876 Z" fill="#edf3ef"/>
+  <text x="159" y="869" class="output muted">任务</text>
+</g>
+<g>
+  <path d="M83 944 Q73 946 73 957 L72 1009 Q74 1024 90 1024 L693 1025 Q708 1022 707 1006 L708 959 Q706 943 690 944 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="981" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="988" text-anchor="middle" class="stage ink">S5</text>
+  <text x="148" y="973" class="action ink">独立核对</text>
+
+  <path d="M149 989 Q153 985 161 986 L249 986 Q255 987 255 994 L254 1011 L150 1012 Z" fill="#edf3ef"/>
+  <text x="159" y="1005" class="output muted">审查结论</text>
+</g>
+<g>
+  <path d="M58 1090 Q48 1092 48 1103 L47 1380 Q49 1395 65 1395 L718 1396 Q733 1393 732 1377 L733 1105 Q731 1089 715 1090 Z" fill="#f2f5ed" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="71" y="1134" class="group ink">完成并检查</text>
+  <path d="M71 1144 Q136 1140 215 1145" fill="none" stroke="#77a39d" stroke-width="3" stroke-linecap="round"/>
+  <text x="654" y="1133" text-anchor="end" class="small muted">S6—S7</text>
+  <use href="#checkIcon" x="669" y="1101" width="48" height="48" style="color:#608c88"/>
+</g>
+<g>
+  <path d="M83 1172 Q73 1174 73 1185 L72 1237 Q74 1252 90 1252 L693 1253 Q708 1250 707 1234 L708 1187 Q706 1171 690 1172 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="1209" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="1216" text-anchor="middle" class="stage ink">S6</text>
+  <text x="148" y="1201" class="action ink">构建接收</text>
+
+  <path d="M149 1217 Q153 1213 161 1214 L249 1214 Q255 1215 255 1222 L254 1239 L150 1240 Z" fill="#edf3ef"/>
+  <text x="159" y="1233" class="output muted">共同版本</text>
+</g>
+<g>
+  <path d="M83 1275 Q73 1277 73 1288 L72 1340 Q74 1355 90 1355 L693 1356 Q708 1353 707 1337 L708 1290 Q706 1274 690 1275 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="1312" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="1319" text-anchor="middle" class="stage ink">S7</text>
+  <text x="148" y="1304" class="action ink">完整验证</text>
+
+  <path d="M149 1320 Q153 1316 161 1317 L249 1317 Q255 1318 255 1325 L254 1342 L150 1343 Z" fill="#edf3ef"/>
+  <text x="159" y="1336" class="output muted">验证结果</text>
+</g>
+<g>
+  <path d="M58 1912 Q48 1914 48 1925 L47 2202 Q49 2217 65 2217 L718 2218 Q733 2215 732 2199 L733 1927 Q731 1911 715 1912 Z" fill="#f4f1e9" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="71" y="1956" class="group ink">验收与决定</text>
+  <path d="M71 1966 Q136 1962 215 1967" fill="none" stroke="#77a39d" stroke-width="3" stroke-linecap="round"/>
+  <text x="654" y="1955" text-anchor="end" class="small muted">S10—S11</text>
+  <use href="#sealIcon" x="669" y="1923" width="48" height="48" style="color:#608c88"/>
+</g>
+<g>
+  <path d="M83 1994 Q73 1996 73 2007 L72 2059 Q74 2074 90 2074 L693 2075 Q708 2072 707 2056 L708 2009 Q706 1993 690 1994 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="2031" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="2038" text-anchor="middle" class="stage ink">S10</text>
+  <text x="148" y="2023" class="action ink">交付核对</text>
+
+  <path d="M149 2039 Q153 2035 161 2036 L306 2036 Q312 2037 312 2044 L311 2061 L150 2062 Z" fill="#edf3ef"/>
+  <text x="159" y="2055" class="output muted">验收 · 审计</text>
+</g>
+<g>
+  <path d="M83 2097 Q73 2099 73 2110 L72 2162 Q74 2177 90 2177 L693 2178 Q708 2175 707 2159 L708 2112 Q706 2096 690 2097 Z" fill="#fffdfa" stroke="#8ba9a7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="108" cy="2134" r="26" fill="#e3f0ea" stroke="#547d78" stroke-width="2.4"/>
+  <text x="108" y="2141" text-anchor="middle" class="stage ink">S11</text>
+  <text x="148" y="2126" class="action ink">决定发布</text>
+  <path d="M607 2110 Q609 2105 617 2105 L696 2105 Q701 2106 701 2113 L699 2131 L608 2130 Z" fill="#f8e2d7" stroke="#dfb29c" stroke-width="1.4"/>
+  <text x="654" y="2123" text-anchor="middle" class="human orange">人决定</text>
+  <path d="M149 2142 Q153 2138 161 2139 L249 2139 Q255 2140 255 2147 L254 2164 L150 2165 Z" fill="#edf3ef"/>
+  <text x="159" y="2158" class="output muted">人的决定</text>
+</g>
+<path d="M390 570 Q387 595 390 615" fill="none" stroke="#38525c" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M390 1037 Q388 1063 390 1080" fill="none" stroke="#38525c" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M704 1398 Q740 1417 737 1464 L737 1830 Q735 1880 700 1901" fill="none" stroke="#38525c" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="662" y="1460" class="small muted">通过</text>
+<g>
+  <path d="M85 1487 Q75 1489 75 1500 L74 1802 Q76 1817 92 1817 L652 1818 Q667 1815 666 1799 L667 1502 Q665 1486 649 1487 Z" fill="#fff1e5" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="98" y="1531" class="group ink">调查与修复</text>
+  <path d="M98 1541 Q163 1537 242 1542" fill="none" stroke="#77a39d" stroke-width="3" stroke-linecap="round"/>
+  <text x="588" y="1530" text-anchor="end" class="small muted">S8—S9</text>
+  <use href="#loopIcon" x="603" y="1498" width="48" height="48" style="color:#608c88"/>
+</g>
+<g>
+  <path d="M115 1575 Q105 1577 105 1588 L104 1658 Q106 1673 122 1673 L340 1674 Q355 1671 354 1655 L355 1590 Q353 1574 337 1575 Z" fill="#fffdfa" stroke="#d19570" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="132" cy="1605" r="21" fill="#fae4d6" stroke="#c97852" stroke-width="2.3"/>
+  <text x="132" y="1612" text-anchor="middle" class="stage ink">S8</text>
+  <text x="161" y="1612" class="small-action ink">查明原因</text>
+  <path d="M121 1637 Q131 1633 143 1635 L332 1635 Q343 1637 339 1653 L122 1655 Z" fill="#fdf0e6"/>
+  <text x="132" y="1653" class="small-output muted">根因</text>
+</g>
+<g>
+  <path d="M397 1575 Q387 1577 387 1588 L386 1658 Q388 1673 404 1673 L622 1674 Q637 1671 636 1655 L637 1590 Q635 1574 619 1575 Z" fill="#fffdfa" stroke="#d19570" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="414" cy="1605" r="21" fill="#fae4d6" stroke="#c97852" stroke-width="2.3"/>
+  <text x="414" y="1612" text-anchor="middle" class="stage ink">S9</text>
+  <text x="443" y="1612" class="small-action ink">有界修复</text>
+  <path d="M403 1637 Q413 1633 425 1635 L614 1635 Q625 1637 621 1653 L404 1655 Z" fill="#fdf0e6"/>
+  <text x="414" y="1653" class="small-output muted">修复 · 重验</text>
+</g>
+<path d="M359 1624 Q369 1620 380 1624" fill="none" stroke="#cf744d" stroke-width="3.7" stroke-linecap="round" marker-end="url(#orangeArrow)"/>
+<path d="M206 1375 Q169 1416 169 1478" fill="none" stroke="#cf744d" stroke-width="3.7" stroke-linecap="round" marker-end="url(#orangeArrow)"/>
+<text x="91" y="1450" class="small orange">发现问题</text>
+<path d="M620 1684 Q682 1681 686 1618 L686 1449 Q684 1412 637 1410 L556 1410 Q524 1412 525 1391" fill="none" stroke="#cf744d" stroke-width="3.7" stroke-linecap="round" marker-end="url(#orangeArrow)"/>
+<text x="484" y="1743" class="small orange">新一轮 S7</text>
+<text x="50" y="2283" class="small muted">深色线：产物接力　　橙色线：发现后重新验证</text>
+</g>
+</svg>
