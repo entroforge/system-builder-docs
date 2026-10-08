@@ -4,7 +4,7 @@ pageClass: document-map-page
 
 # `requirements/`：一份 REQ 说清什么
 
-`docs/requirements/` 保存一项项需求。模板仓库提供 `REQ-template.md`；目标项目填写后，才会出现 `REQ-{id}.md`。一份 REQ 要让不同人对**为什么做、选什么方向、最终承诺什么**形成同一理解，因此模板从 §A 排到 §C。后面的 §D～§F 保存澄清、确认和追溯记录。
+`docs/requirements/` 保存需求。`REQ-template.md` 是样板，`REQ-{id}.md` 是项目的确认稿。AI 整理完整提案，人重点确认 §A 的目标、§B 的方向、§C 的具体承诺。后面的 §D～§F 保存问题、决定和下游索引。
 
 ## §A：先确认想改变什么
 
@@ -46,6 +46,6 @@ pageClass: document-map-page
 
 - **§D 待澄清问题**记录问题、影响范围、是否阻塞和最终结论。不能确定的业务规则会留在这里，直到有依据再作决定。
 - **§E 锁定与逐层拍板**记录 §A、§B、§C 的人类确认及最终锁定。明确的确认会落到文档里，便于之后追溯。
-- **§F 派生文档与覆盖矩阵**保留锁定时的下游索引快照。后续持续更新的覆盖关系由 `docs/dev/contracts/CONTRACTS-{id}.md` 维护；阅读本次承诺时，先看 §A～§C。
+- **§F 派生文档与覆盖矩阵**是下游索引快照，S0 不填写。S3 起，持续更新的需求、合同、任务与证据关系由 `docs/dev/contracts/CONTRACTS-{id}.md` 维护。
 
-这套排列让需求从意图逐步变成承诺。想查某个页面或交互的具体设计，沿 §C 的 UI 影响进入 [`design/`](./design)；想查承诺如何被分派，进入 [`dev/`](./dev)。
+确认需求后，AI 在 S2 展开设计。看页面与交互，沿 §C 的 UI 影响进入 [`design/`](./design)；看技术分工，进入 [`architecture/`](./architecture)；看任务安排，进入 [`dev/`](./dev)。

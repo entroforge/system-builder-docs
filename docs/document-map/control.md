@@ -4,7 +4,7 @@ pageClass: document-map-page
 
 # `control/`：工作按什么边界推进
 
-`docs/control/` 放的是这套系统的运行定义。它回答“什么状态可以走向什么状态、哪些动作受到保护”。项目团队一般通过页面说明和当前状态理解结果；需要核对精确规则时，才进入这些文件。
+`docs/control/` 定义阶段怎样变化、哪些操作受到保护。日常看当前位置与缺项，核对精确规则时查下面的文件。
 
 | 文件 | 各自负责什么 |
 | --- | --- |
@@ -13,10 +13,8 @@ pageClass: document-map-page
 | `hook-policy.json` | 工具操作触发的保护策略与执行边界 |
 | `protected-commands.json` | 受保护的命令类别，例如发布相关的 Git 操作 |
 
-目录里的定义说明**允许怎样推进**；正在运行的项目**此刻走到哪里**，则由 `docs/` 外的 `.claude/loop-state.json` 记录。二者回答的问题不同：一份是规则，一份是当前事实。
+这里保存**推进规则**，`docs/` 外的 `.claude/loop-state.json` 保存**当前进度与事实**。
 
-安装后的 `.claude/bin/loop-harness` 执行校验与状态登记；Hook 在工具操作的相关时点触发检查，并反馈下一步。AI 的技能与角色定义提供处理方法和能力边界。方法说明可以指导工作，正式推进还需要运行机制核对并登记。
+`.claude/bin/loop-harness` 执行校验与登记，Hook 在工具操作前后触发检查并反馈。AI 按技能和角色方法工作，程序按这里的定义核对推进条件。
 
-人通常先看当前位置、缺项和待决定事项。精确的角色、成果与状态如何交接，见[谁推动阶段，凭什么继续](../mechanism/progression)。
-
-开发协作中的稳定约束另放在 [`rules/`](./rules)；想按人能读懂的顺序了解整套工作方式，可从 [`guides/`](./guides) 或本站[机制原理](/mechanism/)进入。
+实际交接过程见[谁推动阶段](../mechanism/progression)。各类工作的工程约束在 [`rules/`](./rules)，操作说明在 [`guides/`](./guides)。

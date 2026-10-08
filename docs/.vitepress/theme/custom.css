@@ -73,6 +73,13 @@
   }
 }
 
+@media (min-width: 721px) {
+  .engineering-roles-page .vp-doc table:first-of-type :is(th, td):first-child {
+    min-width: 4em;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 720px) {
   :is(.document-map-page, .engineering-page) .vp-doc table,
   :is(.document-map-page, .engineering-page) .vp-doc tbody,

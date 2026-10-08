@@ -28,4 +28,4 @@ pageClass: document-map-page
 | `bugfix-review.md`、`capture-provenance.md` | 缺陷修复、观察材料的来源与可信度 |
 | `release-architecture-audit.md` | 发布前的系统级风险检查 |
 
-规则文件是判断某项工作是否合规的依据。读者需要理解某条规则怎样影响当前项目时，可以先看相邻的 [`design/`](./design)、[`dev/`](./dev) 或 [`reports/`](./reports) 文章，再按文件名回查原文。
+遇到具体工作，按上表查相应规则。规则怎样体现在产物中，可回看 [`design/`](./design)、[`dev/`](./dev) 或 [`reports/`](./reports)。
