@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="850" viewBox="0 0 640 850" role="img" aria-labelledby="title desc">
+  <title id="title">人、AI 团队与程序的协作</title>
+  <desc id="desc">人提供目标和授权，主会话分派设计执行与独立检查。执行成果交给检查者，两方提交必要记录给程序机制，机制核对条件并保存进度，向主会话反馈当前状态。需要人的取舍时由主会话交回人。</desc>
+  <defs>
+    <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r="0.8" fill="#b9b5a9" opacity=".28"/><circle cx="22" cy="23" r=".65" fill="#b9b5a9" opacity=".2"/></pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <style>
+    text{font-family:'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif;fill:#2e434b;text-anchor:middle}
+    .heading{font-size:32px;font-weight:650}.body{font-size:27px;fill:#62747a}.label{font-size:25px;fill:#527079}
+    .line{fill:none;stroke:#527079;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .card{stroke:#8ba9a7;stroke-width:2.3;stroke-linejoin:round}
+  </style>
+  <rect width="640" height="850" rx="16" fill="#fbf7ed"/>
+  <rect width="640" height="850" rx="16" fill="url(#grain)"/>
+  <path class="card" d="M114 38 Q99 38 100 54 L99 151 Q100 166 116 165 L523 165 Q540 165 540 148 L541 53 Q538 37 524 39 Z" fill="#f8e2d7"/>
+  <text class="heading" x="320" y="82">人确认方向与取舍</text>
+  <text class="body" x="320" y="126">目标 · 约束 · 授权</text>
+  <path class="line" d="M320 166 Q318 191 320 227"/>
+  <path class="card" d="M114 240 Q99 240 100 256 L99 348 Q100 364 116 363 L523 363 Q540 363 540 347 L541 256 Q538 239 524 240 Z" fill="#e3f0ea"/>
+  <text class="heading" x="320" y="286">主会话协调工作</text>
+  <text class="body" x="320" y="332">读取状态 · 分工与交接</text>
+  <path class="line" d="M250 364 Q247 396 176 401 L176 441"/>
+  <path class="line" d="M390 364 Q393 396 470 401 L470 441"/>
+  <text class="label" x="310" y="417">分派</text>
+  <path class="card" d="M69 457 Q55 456 55 472 L55 584 Q56 600 73 599 L273 600 Q289 599 290 582 L288 470 Q286 455 273 457 Z" fill="#fffdfa"/>
+  <text class="heading" x="172" y="500">设计与执行</text>
+  <text class="body" x="172" y="542">按任务产出</text>
+  <text class="body" x="172" y="578">提交成果</text>
+  <path class="card" d="M369 457 Q354 456 355 472 L354 584 Q355 600 372 599 L571 600 Q588 599 587 582 L588 470 Q586 455 572 457 Z" fill="#fffdfa"/>
+  <text class="heading" x="471" y="500">独立检查</text>
+  <text class="body" x="471" y="542">对照要求核验</text>
+  <text class="body" x="471" y="578">提交结论</text>
+  <text class="label" x="322" y="521">成果</text>
+  <path class="line" d="M291 539 Q316 537 343 539"/>
+  <path class="line" d="M172 601 Q171 637 249 672"/>
+  <path class="line" d="M471 601 Q472 637 392 672"/>
+  <path class="card" d="M114 687 Q99 686 100 701 L99 798 Q100 813 116 812 L523 813 Q540 812 540 796 L541 702 Q538 685 524 687 Z" fill="#e8eef2"/>
+  <text class="heading" x="320" y="732">程序核对与记录</text>
+  <text class="body" x="320" y="773">检查条件 · 保存进度</text>
+  <path class="line" stroke-dasharray="8 8" d="M99 749 L27 749 Q18 749 18 736 L18 315 Q18 301 31 301 L85 301"/>
+</svg>

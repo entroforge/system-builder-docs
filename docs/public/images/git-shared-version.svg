@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="820" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">两项变更接回共同版本</title>
+  <desc id="desc">开发分支从 B0 开始。任务 A 和 B 分别从 B0 产生 A1 与 B1。先合入 A1，形成以 B0 与 A1 为父提交的 M_A；再合入 B1，形成以 M_A 与 B1 为父提交的 M1。M1 包含归属检查与结果反馈。</desc>
+  <defs>
+    <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r="0.8" fill="#b9b5a9" opacity=".28"/><circle cx="22" cy="23" r=".65" fill="#b9b5a9" opacity=".2"/></pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#527079" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <style>
+    text{font-family:'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC',sans-serif;fill:#2e434b;text-anchor:middle}
+    .heading{font-size:30px;font-weight:650}.body{font-size:27px;fill:#62747a}.label{font-size:25px;fill:#527079}
+    .line{fill:none;stroke:#527079;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .card{stroke:#8ba9a7;stroke-width:2.3;stroke-linejoin:round}
+  </style>
+  <rect width="640" height="820" rx="16" fill="#fbf7ed"/>
+  <rect width="640" height="820" rx="16" fill="url(#grain)"/>
+  <path class="card" d="M219 38 Q204 38 205 54 L204 144 Q205 159 221 158 L419 158 Q436 158 435 143 L436 53 Q433 37 420 39 Z" fill="#e3f0ea"/>
+  <text class="heading" x="320" y="84">共同起点 B0</text>
+  <text class="body" x="320" y="126">开发分支</text>
+  <path class="line" d="M258 159 Q250 195 151 204 L151 234"/>
+  <path class="line" d="M382 159 Q390 195 489 204 L489 234"/>
+  <path class="line" d="M320 160 L320 414"/>
+  <path class="card" d="M51 248 Q36 247 37 262 L37 345 Q38 360 54 359 L247 360 Q264 359 264 344 L265 263 Q262 246 249 248 Z" fill="#fffdfa"/>
+  <text class="heading" x="151" y="289">任务 A · A1</text>
+  <text class="body" x="151" y="331">补归属检查</text>
+  <path class="card" d="M389 248 Q374 247 375 262 L375 345 Q376 360 392 359 L585 360 Q602 359 602 344 L603 263 Q600 246 587 248 Z" fill="#fffdfa"/>
+  <text class="heading" x="489" y="289">任务 B · B1</text>
+  <text class="body" x="489" y="331">改结果反馈</text>
+  <path class="line" d="M151 361 Q148 465 190 478"/>
+  <path class="card" d="M219 429 Q204 428 205 444 L204 531 Q205 547 221 546 L419 547 Q436 546 435 530 L436 445 Q433 427 420 429 Z" fill="#e3f0ea"/>
+  <text class="heading" x="320" y="474">接收 A · M_A</text>
+  <text class="body" x="320" y="516">归属已合入</text>
+  <path class="line" d="M320 548 Q319 597 320 644"/>
+  <path class="line" d="M489 361 L489 654 Q489 706 450 706"/>
+  <path class="card" d="M219 661 Q204 660 205 675 L204 762 Q205 778 221 777 L419 778 Q436 777 435 761 L436 676 Q433 659 420 661 Z" fill="#f8e2d7"/>
+  <text class="heading" x="320" y="705">接收 B · M1</text>
+  <text class="body" x="320" y="748">归属 ＋ 反馈</text>
+</svg>
