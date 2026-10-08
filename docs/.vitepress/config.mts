@@ -24,6 +24,7 @@ const engineeringSidebar = [
 ]
 
 export default defineConfig({
+  base: process.env.VITEPRESS_BASE || '/',
   lang: 'zh-CN',
   title: '在想法与实现之间',
   description: '从人的视角理解 AI 协作开发',
